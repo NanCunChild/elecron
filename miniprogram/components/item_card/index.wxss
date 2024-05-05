@@ -1,0 +1,31 @@
+/* components/item_card/index.wxss */
+
+.card {}
+
+.cardImg {
+  width: 100%;
+  height: 76%;
+}
+
+.cardText {}
+
+.cardAvatorContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*此处的MainLine包含头像和标题，详细文字不包含在内*/
+.cardTextMainline{
+
+}
+
+.cardAvatorContainer .cardAvator {
+  width: 48rpx;
+  height: 48rpx;
+  margin: 2rpx;
+}
+
+.cardTitle {}
+
+.cardDetails {}

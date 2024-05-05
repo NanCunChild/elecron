@@ -1,0 +1,47 @@
+/* components/searchBar/index.wxss */
+
+.searchBarContainer{
+  width: 640rpx;
+  height: fit-content;
+  padding: 5rpx;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  border: #0f518f 6rpx solid;
+  border-radius: 38rpx;
+  margin: 20rpx 2rpx 5rpx 2rpx;
+}
+
+.searchBarInput{
+  width: 480rpx;
+  height: 64rpx;
+  padding: 2rpx 1rpx 2rpx 20rpx;
+}
+
+.searchBarBtn{
+  min-width: 92rpx;
+  max-width: 120rpx;
+  width: fit-content;
+  height: 60rpx;
+  padding: 0rpx 5rpx 0rpx 5rpx;
+  margin: 2rpx 5rpx 2rpx 1rpx;
+  border-radius: 60rpx;
+  text-align: center;
+  justify-content: center;
+  background-color: #0d6dc7;
+  color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+
+  transition: background-color 0.3s, transform 0.1s; /* 平滑过渡效果 */
+}
+.TouchingSearchBtn {
+  background-color: #0056b3; /* 按下时的背景色 */
+  transform: scale(0.95); /* 按下时轻微缩小 */
+}
+.TapingSearchBtn{
+  background-color: #0056b3;
+  transform: scale(0.95);
+}

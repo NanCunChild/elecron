@@ -1,0 +1,9 @@
+<!--components/searchBar/index.wxml-->
+
+<form bindsubmit="onFormSubmit">
+  <view class="searchBarContainer">
+    <input placeholder="{{search_holder}}" class="searchBarInput" value="{{inputValue}}" name="searchInput"/>
+    <button form-type="submit" class="searchBarBtn {{isTouchingSearchBtn ? 'TouchingSearchBtn' : ''}} {{isTapingSearchBtn ? 'TapingSearchBtn' : ''}}" bindtouchstart="onSearchBtnTouchStart" bindtouchend="onSearchBtnTouchEnd" bind:tap="onSearchBtnTouched">搜索</button>
+
+  </view>
+</form>

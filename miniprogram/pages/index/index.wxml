@@ -1,0 +1,45 @@
+<!--pages/index/index.wxml-->
+
+<view class="mainBody">
+  <view>
+    <!--LogoArea-->
+    <view></view>
+  </view>
+
+  <view class="searchArea">
+    <!--SearchArea-->
+    <ncc_searchBar search_holder="乐到不跑"></ncc_searchBar>
+    <view class="catagloriesBarContainer">
+      <view class="cataglories">需求类型</view>
+      <view class="cataglories">时效</view>
+      <view class="cataglories">取货方式</view>
+    </view>
+  </view>
+
+  <view class="postingArea">
+    <!--PostingArea-->
+    <view class="postingBtnContainer">
+      <ncc_extendBtn style="height: 640rpx;"></ncc_extendBtn>
+    </view>
+    <view class="postingBtnContainer">
+      <ncc_extendBtn backgroundColor="#fe5526"></ncc_extendBtn>
+    </view>
+  </view>
+
+  <view class="ongoingOrderArea">
+    <!--OngoingOrdersArea-->
+    <view class="ongoingOrderItemContainer">
+      <ncc_orderBar></ncc_orderBar>
+    </view>
+    <view class="ongoingOrderStatusContainer">
+      <view class="ongoingOrderStatus">
+        <view class="ongoingOrderStatusIcon">Img Here</view>
+        <view class="ongoingOrderStatusText">checked</view>
+      </view>
+    </view>
+  </view>
+
+  <view class="recommendationOrdersArea">
+    <!--RecommandationArea-->
+  </view>
+</view>

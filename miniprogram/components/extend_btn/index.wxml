@@ -1,0 +1,17 @@
+<!--components/extend_btn/index.wxml-->
+
+<view class="btn" style="background-color: {{backgroundColor}}; border-radius: {{borderRadius}};">
+  <view class="btnMainLine">
+    <view class="btnIconContainer">
+      <image class="btnIcon" src="{{iconSrc}}"></image>
+    </view>
+
+    <view class="btnTitle" style="font-size: {{titleSize}}; color: {{titleColor}}">
+      {{titleText}}
+    </view>
+  </view>
+  <view class="btnDetails" style="font-size: {{detailSize}}; color: {{detailColor}}">
+    {{detailText}}
+  </view>
+</view>
+

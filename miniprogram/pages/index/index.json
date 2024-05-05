@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "ncc_searchBar":"/components/searchBar",
+    "ncc_extendBtn":"/components/extend_btn",
+    "ncc_orderBar":"/components/item_bar"
+  }
+}
