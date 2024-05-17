@@ -39,7 +39,7 @@ Component({
     },
     detailColor: {
       type: String,
-      value: '#757575'  // 默认细节文字颜色
+      value: '#dedede'  // 默认细节文字颜色
     }
   },
 

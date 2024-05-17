@@ -19,27 +19,38 @@
   <view class="postingArea">
     <!--PostingArea-->
     <view class="postingBtnContainer">
-      <ncc_extendBtn style="height: 640rpx;"></ncc_extendBtn>
+      <ncc_extendBtn backgroundColor="#08609d" titleText="发布一单" detailText="发布你的需求" iconSrc="/images/icons/extend_btn_order.png"></ncc_extendBtn>
     </view>
     <view class="postingBtnContainer">
-      <ncc_extendBtn backgroundColor="#fe5526"></ncc_extendBtn>
+      <ncc_extendBtn backgroundColor="#f68237" titleText="发布动态" detailText="分享一下今天发生了啥" iconSrc="/images/icons/entend_btn_timeline.png"></ncc_extendBtn>
     </view>
   </view>
 
   <view class="ongoingOrderArea">
     <!--OngoingOrdersArea-->
     <view class="ongoingOrderItemContainer">
-      <ncc_orderBar></ncc_orderBar>
+      <ncc_orderBar titleText="正在进行的工单" detailText="我要代做实验课"></ncc_orderBar>
     </view>
+
     <view class="ongoingOrderStatusContainer">
       <view class="ongoingOrderStatus">
         <view class="ongoingOrderStatusIcon">Img Here</view>
-        <view class="ongoingOrderStatusText">checked</view>
+        <view class="ongoingOrderStatusText">Done</view>
       </view>
     </view>
   </view>
 
+
   <view class="recommendationOrdersArea">
     <!--RecommandationArea-->
+    <scroll-view scroll-y="true" class="itemCardScrollContainer">
+      <view class="itemCardContainer">
+        <ncc_itemCard cardImg="/images/test2.png" cardAvator="/images/avatar.png" cardNickname="John Doe" cardTitle="Awesome Product" cardPrice="$99.9" cardDataPlate="100"></ncc_itemCard>
+        <ncc_itemCard></ncc_itemCard>
+        <ncc_itemCard></ncc_itemCard>
+        <ncc_itemCard></ncc_itemCard>
+      </view>
+
+    </scroll-view>
   </view>
 </view>

@@ -1,9 +1,20 @@
 <!--components/item_card/index.wxml-->
-<text>components/item_card/index.wxml</text>
 
 <view class="card">
-  <view><image class="cardImg"></image></view>
-  <view class="cardText">
-    <view class="cardText"></view>
+  <view>
+    <image class="cardImg" src="{{cardImg}}"></image>
+  </view>
+  <view class="cardIntros">
+    <view class="cardIdentity">
+      <image class="cardAvator" src="{{cardAvator}}"></image>
+      <view class="cardNickname">{{cardNickname}}</view>
+    </view>
+    <view class="cardTexts">
+      <view class="cardTitle">{{cardTitle}}</view>
+      <view class="cardDetails">
+        <view class="cardPrice">{{cardPrice}}</view>
+        <view class="cardDataPlate">{{cardDataPlate}}</view>
+      </view>
+    </view>
   </view>
 </view>

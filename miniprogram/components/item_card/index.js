@@ -5,7 +5,30 @@ Component({
    * 组件的属性列表
    */
   properties: {
-
+    cardImg: {
+      type: String,
+      value: '/images/test3.png'
+    },
+    cardAvator: {
+      type: String,
+      value: '/images/avatar.png'
+    },
+    cardNickname: {
+      type: String,
+      value: 'Solder'
+    },
+    cardTitle: {
+      type: String,
+      value: 'Good Goods'
+    },
+    cardPrice: {
+      type: String,
+      value: '$9.9'
+    },
+    cardDataPlate: {
+      type: String,
+      value: '100+ sold'
+    }
   },
 
   /**

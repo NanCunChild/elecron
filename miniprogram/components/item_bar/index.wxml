@@ -1,10 +1,10 @@
 <!--components/item_bar/index.wxml-->
 <view class="order">
   <view class="order_imgContainer">
-    <image class="order_img"></image>
+    <image class="order_img" src="/images/test1.png"></image>
   </view>
   <view class="order_texts">
-    <view class="order_title">Title</view>
-    <view class="order_details">Details balabalabala</view>
+    <view class="order_title"  style="font-size: {{titleSize}}; color: {{titleColor}}">{{titleText}}</view>
+    <view class="order_details"  style="font-size: {{detailSize}}; color: {{detailColor}}">{{detailText}}</view>
   </view>
 </view>

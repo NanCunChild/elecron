@@ -1,31 +1,87 @@
 /* components/item_card/index.wxss */
 
-.card {}
+.card {
+  margin: 5rpx;
+  min-height: 420rpx;
+  width: 340rpx;
+  background-color: #ffffff;
+  border-radius: 20rpx;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+}
 
 .cardImg {
   width: 100%;
-  height: 76%;
+  border-radius: 20rpx 20rpx 0rpx 0rpx;
+  /* height: 76%; */
 }
 
-.cardText {}
-
-.cardAvatorContainer {
+.cardIntros {
+  flex: 1;
   display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.cardTexts {
+  margin: 10rpx 5rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.cardTexts .cardTitle {
+  max-width: 86%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 32rpx;
+  margin: 5rpx 2rpx;
+}
+
+.cardTexts .cardDetails {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.cardTexts .cardDetails .cardPrice {
+  color: #ff470f;
+  font-size: 32rpx;
+  margin: 5rpx 10rpx 5rpx 5rpx;
+}
+
+.cardTexts .cardDetails .cardDataPlate {
+  background-color: #4169e1;
+  color: #f0f8ff;
+  border-radius: 10rpx;
+  padding: 4rpx 10rpx;
+  font-size: 18rpx;
+  margin: 5rpx 4rpx;
+}
+
+.cardIdentity {
+  display: flex;
+  margin: 10rpx 8rpx 10rpx 18rpx;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-/*此处的MainLine包含头像和标题，详细文字不包含在内*/
-.cardTextMainline{
-
-}
-
-.cardAvatorContainer .cardAvator {
-  width: 48rpx;
-  height: 48rpx;
+.cardIdentity .cardAvator {
+  width: 54rpx;
+  height: 54rpx;
   margin: 2rpx;
+  border-radius: 64rpx;
+  background-color: grey;
 }
 
-.cardTitle {}
-
-.cardDetails {}
+.cardIdentity .cardNickname {
+  margin: 10rpx 2rpx;
+  font-size: 16rpx;
+  max-width: 54rpx;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: clip;
+}
