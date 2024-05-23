@@ -27,7 +27,7 @@ Component({
     },
     titleColor: {
       type: String,
-      value: 'aliceblue'  // 默认标题文字颜色
+      value: '#fefefe'  // 默认标题文字颜色
     },
     detailText: {
       type: String,
@@ -39,7 +39,7 @@ Component({
     },
     detailColor: {
       type: String,
-      value: '#dedede'  // 默认细节文字颜色
+      value: '#fefefe'  // 默认细节文字颜色
     }
   },
 

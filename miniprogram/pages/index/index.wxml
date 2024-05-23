@@ -29,12 +29,12 @@
   <view class="ongoingOrderArea">
     <!--OngoingOrdersArea-->
     <view class="ongoingOrderItemContainer">
-      <ncc_orderBar titleText="正在进行的工单" detailText="我要代做实验课"></ncc_orderBar>
+      <ncc_orderBar titleText="最近的工单" detailText="我要代做实验课"></ncc_orderBar>
     </view>
 
     <view class="ongoingOrderStatusContainer">
       <view class="ongoingOrderStatus">
-        <view class="ongoingOrderStatusIcon">Img Here</view>
+        <image class="ongoingOrderStatusIcon" src="/images/icons/order_done.png"></image>
         <view class="ongoingOrderStatusText">Done</view>
       </view>
     </view>
